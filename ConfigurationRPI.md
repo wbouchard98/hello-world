@@ -15,5 +15,4 @@
 12)	Maintenant faire les ‘’update’’ et ‘’upgrade’’.
 
 
-Alors maintenant, le Raspberry Pi devrait être bien configuré pour commencer à travailler. Pour que les codes fonctionnent, il faut installer les librairies nécessaires.
 
