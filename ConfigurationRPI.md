@@ -1,2 +1,2 @@
 ![RPIlogo](https://github.com/wbouchard98/hello-world/blob/1bab890407de53b6081342bc769ee3ec7076baf6/RPILOGO.png) 
-# FUCK
+# Étapes de l’installation de l’image du Raspberry Pi 
