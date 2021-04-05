@@ -1,2 +1,2 @@
-![CegepSherb](https://github.com/wbouchard98/hello-world/blob/6aef4d34968bf11c8b951992c217871ff4be5614/cegepSherb.PNG) 
+![RPIlogo](https://github.com/wbouchard98/hello-world/blob/1bab890407de53b6081342bc769ee3ec7076baf6/RPILOGO.png) 
 # FUCK
