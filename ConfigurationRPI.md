@@ -13,6 +13,7 @@
 10)	Effectuez un : sudo systemctl restart systemd-timesync.service .
 11)	Effectuer par la suite : sudo systemctl daemon-reload .
 12)	Maintenant faire les ‘’update’’ et ‘’upgrade’’.
+13)	Si vous utilisez un écran de petite taille, comme un écran 7" comme nous, nous vous recommandons de changer la résolution de l'écran. Pour ce faire, cliquer le logo Raspberry dans le haut de l'écran, puis aller sur "Preferences" et "Raspberry Pi Configuration". Aller dans l'onglet "Display" et puis "Set Resolution...". Nous utilisons "DMT mode 9 800x600 60Hz 4:3".
 
 
 
