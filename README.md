@@ -137,6 +137,10 @@ Le mode monitorage est bien simple; il affiche les valeurs reçues. Les valeurs 
 ![SecGUI](https://github.com/wbouchard98/hello-world/blob/fc8c7f09e50d0535397c7cd5c68dbf6a1d3f6e35/monitoring.png)
 
 ### Mode Consigne
+Le mode consigne permet à l'usager d'accomplir plusieurs tâches. Premièrement, une section de l'affichage est réservé à afficher les valeurs de consignes courantes. Une autre section sert à modifier manuellement les valeurs des consignes courantes. Les valeurs à l'écran dans la section de l'affichage des consignes vont changer avec les modifications effectué. L'autre section sert à choisir ou enregistrer des valeurs de consignes. Ces valeurs sont alors réutilisables si l'usager souhaite les utiliser plus tard, ou si le système est mis hors tension. Voir la figure ci-dessus pour un visuel du GUI en mode consigne.
+![SecGUI](https://github.com/wbouchard98/hello-world/blob/12d96521d4533a530a72c2a7a51c8ea9c224a35f/infoconsigne.png)
+
+### Mode Paramètre
 
 
 
