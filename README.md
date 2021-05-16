@@ -134,17 +134,19 @@ Le menu nous permet de naviguer entre 4 modes de GUI différents. Le premier est
 
 ### Mode Monitorage
 Le mode monitorage est bien simple; il affiche les valeurs reçues. Les valeurs sont la température, l'humidité, la concentration de C02 et la quantité de matière organique dans l'air. Voir la figure ci-dessus pour exemple de l'affichage en mode monitorage.
-![SecGUI](https://github.com/wbouchard98/hello-world/blob/fc8c7f09e50d0535397c7cd5c68dbf6a1d3f6e35/monitoring.png)
+![MonGUI](https://github.com/wbouchard98/hello-world/blob/fc8c7f09e50d0535397c7cd5c68dbf6a1d3f6e35/monitoring.png)
 
 ### Mode Consigne
 Le mode consigne permet à l'usager d'accomplir plusieurs tâches. Premièrement, une section de l'affichage est réservé à afficher les valeurs de consignes courantes. Une autre section sert à modifier manuellement les valeurs des consignes courantes. Les valeurs à l'écran dans la section de l'affichage des consignes vont changer avec les modifications effectué. L'autre section sert à choisir ou enregistrer des valeurs de consignes. Ces valeurs sont alors réutilisables si l'usager souhaite les utiliser plus tard, ou si le système est mis hors tension. Voir la figure ci-dessus pour un visuel du GUI en mode consigne.
-![SecGUI](https://github.com/wbouchard98/hello-world/blob/12d96521d4533a530a72c2a7a51c8ea9c224a35f/infoconsigne.png)
+![ConGUI](https://github.com/wbouchard98/hello-world/blob/12d96521d4533a530a72c2a7a51c8ea9c224a35f/infoconsigne.png)
 
 ### Mode Paramètre
 Le mode paramètre nous permet de se connecter à la base de données ThingSpeak, de se connecter à un réseau Wi-Fi et à voir des informations utiles pour l'usgaer. Pour pouvoir entrer les informations requises de Thingspeak et du Wi-Fi, un clavier sera nécessaire. Simplement le brancher dans un port USB du RaspberryPi. L'iamge ci-dessous nous permet de voir un exemple de la fenêtre paramètre.
-![SecGUI](https://github.com/wbouchard98/hello-world/blob/5c9a7b863dd67d611bd76d9151b4cd8fe0018b1b/pramertredf.png)
+![ParaGUI](https://github.com/wbouchard98/hello-world/blob/5c9a7b863dd67d611bd76d9151b4cd8fe0018b1b/pramertredf.png)
 
-### 
+### Mode Administrateur
+Le mode Administarteur permet de contrôler manuellement les éléments de contrôle. Cette fenêtre est très utile pour vérifier le fonctionnment de son matériel. Des "sliders" servent à ajuster le PWM des éléments et ainsi dicter leur intensité de fonctionnment. Voir la figure ci-dessus pour un apperçu.
+![AdminGUI](https://github.com/wbouchard98/hello-world/blob/c58ebe2f87ef538df8b078601df17fc888be1bdc/admin.png)
 
 
 
