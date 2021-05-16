@@ -141,8 +141,10 @@ Le mode consigne permet à l'usager d'accomplir plusieurs tâches. Premièrement
 ![SecGUI](https://github.com/wbouchard98/hello-world/blob/12d96521d4533a530a72c2a7a51c8ea9c224a35f/infoconsigne.png)
 
 ### Mode Paramètre
+Le mode paramètre nous permet de se connecter à la base de données ThingSpeak, de se connecter à un réseau Wi-Fi et à voir des informations utiles pour l'usgaer. Pour pouvoir entrer les informations requises de Thingspeak et du Wi-Fi, un clavier sera nécessaire. Simplement le brancher dans un port USB du RaspberryPi. L'iamge ci-dessous nous permet de voir un exemple de la fenêtre paramètre.
+![SecGUI](https://github.com/wbouchard98/hello-world/blob/5c9a7b863dd67d611bd76d9151b4cd8fe0018b1b/pramertredf.png)
 
-
+### 
 
 
 
