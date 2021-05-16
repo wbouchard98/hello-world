@@ -146,6 +146,7 @@ Le mode paramètre nous permet de se connecter à la base de données ThingSpeak
 
 ### Mode Administrateur
 Le mode Administarteur permet de contrôler manuellement les éléments de contrôle. Cette fenêtre est très utile pour vérifier le fonctionnment de son matériel. Des "sliders" servent à ajuster le PWM des éléments et ainsi dicter leur intensité de fonctionnment. Voir la figure ci-dessus pour un apperçu.
+
 ![AdminGUI](https://github.com/wbouchard98/hello-world/blob/c58ebe2f87ef538df8b078601df17fc888be1bdc/admin.png)
 
 
