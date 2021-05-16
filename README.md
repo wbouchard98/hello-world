@@ -126,7 +126,12 @@ Un ventillateur qui permet de refroidir la LED de 100W. Ce ventillateur est "dri
 #### Connecteur 12V supplémentaire
 On ajouté ce connecteur pour pouvoir ajouter d'autre élément fonctionnant sur du 12V. Comme par exemple une pompe à eau pour arroser la terre ou un ventillaeur supplémentaire. Ce connecteur sera contrôler par la pin GPIO-19 du RaspberryPi.
 
-/////////////////////////////////Ajout de how to use GUI////////////////////////////////////////
+## Utilisation de l'interface graphique
+L'interface graphique se compose de deux sections: un menu ancré sur la gauche de l'écran et l'affichage principale qui occupe le restant. Voir figure ci-dessus.
+![SecGUI]https://github.com/wbouchard98/hello-world/blob/8abe3be088b4d87ddb48692b84ce3599287a2228/sectionGUI.png
+
+
+
 
 
 
