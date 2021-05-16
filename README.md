@@ -130,6 +130,14 @@ On ajouté ce connecteur pour pouvoir ajouter d'autre élément fonctionnant sur
 L'interface graphique se compose de deux sections: un menu ancré sur la gauche de l'écran et l'affichage principale qui occupe le restant. Voir figure ci-dessus.
 ![SecGUI](https://github.com/wbouchard98/hello-world/blob/8abe3be088b4d87ddb48692b84ce3599287a2228/sectionGUI.png)
 
+Le menu nous permet de naviguer entre 4 modes de GUI différents. Le premier est le mode monitorage, le deuxième est le mode consigne, le troisième est le mode paramètre et finalement le dernier est le mode administrateur.
+
+### Mode Monitorage
+Le mode monitorage est bien simple; il affiche les valeurs reçues. Les valeurs sont la température, l'humidité, la concentration de C02 et la quantité de matière organique dans l'air. Voir la figure ci-dessus pour exemple de l'affichage en mode monitorage.
+![SecGUI](https://github.com/wbouchard98/hello-world/blob/fc8c7f09e50d0535397c7cd5c68dbf6a1d3f6e35/monitoring.png)
+
+### Mode Consigne
+
 
 
 
