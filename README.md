@@ -128,7 +128,7 @@ On ajouté ce connecteur pour pouvoir ajouter d'autre élément fonctionnant sur
 
 ## Utilisation de l'interface graphique
 L'interface graphique se compose de deux sections: un menu ancré sur la gauche de l'écran et l'affichage principale qui occupe le restant. Voir figure ci-dessus.
-![SecGUI]https://github.com/wbouchard98/hello-world/blob/8abe3be088b4d87ddb48692b84ce3599287a2228/sectionGUI.png
+![SecGUI](https://github.com/wbouchard98/hello-world/blob/8abe3be088b4d87ddb48692b84ce3599287a2228/sectionGUI.png)
 
 
 
