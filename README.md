@@ -25,12 +25,12 @@ Pour que le RaspberryPi fonctionne pour ce projet, voici les étapes que nous av
 ![RPIlogo](https://github.com/wbouchard98/hello-world/blob/1bab890407de53b6081342bc769ee3ec7076baf6/RPILOGO.png) 
 # Étapes de l’installation de l’image du Raspberry Pi 
 
-1)	Allez chercher une image de Raspberry Pi Buster Desktop lit
+1)	Allez chercher une image de Raspberry Pi Buster Desktop 
 2)	”Flash” une carte SD d’au moins 8Go avec cette image. Nous avons utilisé Balena Etcher pour cette étape.
 3)	Faire la configuration du Raspberry Pi lors de son premier démarrage. Lorsqu’il vous est demandé de redémarrer le Raspberry Pi, redémarrer le.
 4)	Maintenant, il faut activer les interfaces dont on aura besoin. Ouvrez un terminal, et tapez la commande : sudo raspi-config
 5)	Une fois la fenêtre de configuration ouverte sélectionner l’index 5(Interfacing Options).
-6)	Activer ’’Camera’’, ‘’SSH’’, ‘’VNC’’, ‘’I2C’’ et ‘’1-Wire’’. Il faut aussi activer le ‘’Serial’’. Cependant lorsqu’il va être demandé s’il est désiré que le ‘’login shell’’ soit accessible depuis le serial, faire non, et lorsque l’usager est demandé de vouloir activer le ‘’Serial port hardware’’ faire oui.
+6)	Activer ‘’SSH’’, ‘’VNC’’, ‘’I2C’’ et ‘’1-Wire’’. Il faut aussi activer le ‘’Serial’’. Cependant lorsqu’il va être demandé s’il est désiré que le ‘’login shell’’ soit accessible depuis le serial, faire non, et lorsque l’usager est demandé de vouloir activer le ‘’Serial port hardware’’ faire oui.
 7)	Redémarrez le Raspberry Pi pour effectuer les changements.
 8)	Maintenant, il faut se connecter au serveur de temps pour pouvoir automatiquement mettre à jour le temps du Raspberry Pi. Ouvrez le fichier /etc/systemd/timesyncd.conf .
 9)	Modifiez les lignes ‘’NTP’’ et ‘’FallbackNTP’’ pour que leur valeur sois : time.apple.com .
@@ -49,9 +49,9 @@ Voici les démarches à suivre pour l'installation de ces librairies:
 1) Premièrement, il faut s’assurer que Pyhton3 soit bien installé : sudo apt-get install python3 .
 2) Une fois installé, il faut pouvoir accéder au I/O du Raspberry Pi. La librairie suivante va faire ce travail : sudo pip3 install RPI.GPIO
 3) Pour pouvoir lire les données du capteur SEN0227 qui va lire la température de l’environnement dans lequel le Raspberry Pi se situe (et non l’environnement que l’on souhaite contrôler) : sudo pip3 install sht20 .
-4) Maintenant, pour être capable de faire les communications MQTT, il nous faut un ‘’Broker MQTT’’ : sudo apt-get install mosquitto : et : sudo apt-get install mosquitto-clients .
-5) Une fois le ‘’Broker’’ installé, il nous faut la librairie pour accéder à ce ‘’Broker’’ : sudo pip3 install paho-mqtt .
-6) Maintenant, il faut que notre ‘’GUI’’ puisse accéder aux librairies PYQT5 : sudo apt-get install qt5-default pyqt5-dev pyqt5-dev-tools
+4) Maintenant, pour être capable de faire les communications MQTT, il nous faut un "Broker MQTT" : sudo apt-get install mosquitto : et : sudo apt-get install mosquitto-clients .
+5) Une fois le "Broker" installé, il nous faut la librairie pour accéder à ce "Broker" : sudo pip3 install paho-mqtt .
+6) Maintenant, il faut que notre "GUI" puisse accéder aux librairies PYQT5 : sudo apt-get install qt5-default pyqt5-dev pyqt5-dev-tools
 7) Pour contrôler la plupart des éléments de l’environnement, l’utilisation d’un PID est importante. La librairie suivante va nous permettre d’utiliser des PID : sudo pip3 install simple-pid .
 
 
@@ -108,10 +108,27 @@ Même méthode que pour la ventillation, mais le GPIO-17 est utilisé.
 #### Lumière
 Même principle que la ventillation, mais le GPIO-06 est utilisé.
 
+#### Déshumidificateur
+Même principle que la ventillation, mais le GPIO-22 est utilisé. On a pas intégré le déshumidificateur à notre projet, alors notre code ne contient pas son activation, mais il est possible d'ajouter son activation si désiré.
 
+#### Humidificateur
+L'humidificateur est contrôlé par le GPIO-05 du RaspberryPi. Un CPC1907B transforme le signal du RaspberryPi en signal 24V.
 
+#### LED 100W
+Une LED de 100W peut être connecté au PCB pour utiliser au lieu du panneau de lumière. Cette lumière sera contrôlé par le GPIO-13 du RaspberryPi. Un transitor permet de faire circuler le courant pour allumer la LED.
 
+#### Ventillation du boitier
+Un ventillateur à l'intérieur du boitier permet de refroidir la température de celui-ci. Ce ventillateur est contrôllé par un PWM de la pin GPIO-12 du RaspberryPi. Un transitor permet de conduire le courant à partir du 12V.
+
+#### Ventillateur de la LED 100W
+Un ventillateur qui permet de refroidir la LED de 100W. Ce ventillateur est "driver" par un transitor contrôlé par la pin GPIO-18 du RaspberryPi.
+
+#### Connecteur 12V supplémentaire
+On ajouté ce connecteur pour pouvoir ajouter d'autre élément fonctionnant sur du 12V. Comme par exemple une pompe à eau pour arroser la terre ou un ventillaeur supplémentaire. Ce connecteur sera contrôler par la pin GPIO-19 du RaspberryPi.
 
 /////////////////////////////////Ajout de how to use GUI////////////////////////////////////////
+
+
+
 
 
